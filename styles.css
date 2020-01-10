@@ -59,7 +59,7 @@ a:hover {
   color: white;
 }
 
-header {
+header.background-image {
   text-align: center;
   background: url('images/rsz_l1044831.jpg') no-repeat top center ;
   background-size: cover;
@@ -75,10 +75,14 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid #b3e5fc;
-  transition: all .5s;
 }
-header .profile-image:hover {
-  transform: scale(1.2) rotate(2deg);
+header.explore {
+  padding-top: 50px;
+  text-align: left;
+  padding-left: 50px;
+}
+.explore h1 {
+  font-family: WildYouth-Regular;
 }
 .tag {
   font-family: WildYouth-Regular;
@@ -108,6 +112,16 @@ header .profile-image:hover {
   border-color: #009975;
 }
 
+h2 .section-image {
+  margin-left: 5px;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  transition: 0.5s;
+}
+h2 .section-image:hover {
+  transform: scale(3.0);
+}
 ul.skills {
   padding: 0;
   text-align: center;
@@ -124,6 +138,16 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #454D66;
+}
+section.berlin {
+  padding-top: 0px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.figure {
+  width: 400px;
+  height: 400px;
 }
 
 footer {
@@ -185,7 +209,7 @@ a.social:hover {
       margin: 0 auto;
   }
 
-  header {
+  header.background-image {
     min-height: 470px;
   }
 
